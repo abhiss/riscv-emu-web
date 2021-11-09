@@ -14,7 +14,7 @@ exclude = [
 ]
 
 [workspace]
-members = [".", "cli", "wasm"]
+members = [".", "cli", "wasm", "wasm-lib"]
 
 [badges]
 travis-ci = { repository = "takahirox/riscv-rust" }

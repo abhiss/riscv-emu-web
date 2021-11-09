@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    addi a0,a0,12 ->  110001010000010100010011 <br/>
+    slli a1,a1,0x3 -> 000000000000010110001110 <br/>
+    <input type="text" name="encoded input" id="encoded-input">
+    <button id="submit">Submit</button>
+
+    <div id="results">
+
+    </div>
+
+    <script src="web/riscv_emu_rust_wasm.js"></script>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
